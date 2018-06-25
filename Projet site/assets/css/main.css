@@ -2514,7 +2514,7 @@ input, select, textarea {
 /* Header */
 
 	#header {
-		/*padding: 3em 0 0 0;*/
+		/*padding: 7em 0 0 0*/
 		/*background-color: #0096FF;*/
 		background-image: url("images/banniere2.png");
 		background-size: cover;
@@ -2527,19 +2527,28 @@ input, select, textarea {
 		background-repeat: no-repeat,					no-repeat,					repeat;*/
 	}
 
-		/*#header h1 {
-			padding: 0 0 2.75em 0;
+		#header h1 {
+			padding: 0 0 0.5em 0;
 			margin: 0;
+			vertical-align: top;
+			text-align: center;
+			font-style: oblique;
+			font-size: 50px; 
+			color: white;
+			text-decoration: none;
+			text-shadow: 0 5px 0 #222222;
+
+
 		}
 
-			#header h1 a {
+			/*#header h1 a {
 				font-size: 1.5em;
 				letter-spacing: -0.025em;
 				border: 0;
 			}*/
 
 			#header img {
- 				width: 10%;
+ 				width: 12%;
  				/*vertical-align: top;*/
 			}
 
@@ -2667,26 +2676,39 @@ input, select, textarea {
 /* Banner */
 
 	#banner {
-		background-image: url("../../images/banner.jpg");
+		background color: #C7C5C0;
+		/*background-image: url("../../images/banner.jpg");*/
 		background-position: center center;
 		background-size: cover;
 		height: 28em;
 		text-align: center;
 		position: relative;
+		}
+
+	#banner h1 {
+		color: #A48A40;
+		text-decoration: none;
+		text-shadow: 0 0px 0 #222222;
+		text-align: center;
+		font-style: bold;
+		font-size: 25px;
+		background-color: #C4E3EB; 
+
 	}
 
-		#banner header {
+	/*	#banner header {
 			position: absolute;
 			bottom: 0;
 			left: 0;
 			width: 100%;
 			background: #212121;
 			background: rgba(27, 27, 27, 0.75);
+
 			color: #fff;
-			padding: 1.5em 0;
+			padding: 1.5em 0;*/
 		}
 
-			#banner header h2 {
+			/*#banner header h2 {
 				display: inline-block;
 				margin: 0;
 				font-size: 1.25em;
@@ -2709,8 +2731,64 @@ input, select, textarea {
 				vertical-align: middle;
 				margin-left: 1em;
 			}
+*/
 
-/* Wrapper */
+/*Localisation*/
+
+	#localisation h1{
+			color: #A48A40;
+			text-decoration: none;
+			text-shadow: 0 0px 0 #222222;
+			text-align: center;
+			font-style: bold;
+			font-size: 25px;	
+			background-color: red;
+		}	
+
+			div#loca2 div{
+			display: inline-block;
+			width: 50%
+		}
+
+
+			div#loca2 div.leftbox{
+			vertical-align: top;
+			float: left;
+		}
+
+
+			div#loca2 div.righbox{
+				vertical-align: top;
+
+		}
+			div#loca2 img {
+				width: 180px;
+				height: 180px;
+	/*			margin-left: auto;
+				margin-right: auto;*/
+				vertical-align: top;
+			}
+
+			div#loca2 h2 {
+			color: #A48A40;
+			text-decoration: none;
+			text-shadow: 0 0px 0 #222222;
+			/*text-align: center;*/
+			font-style: bold;
+			font-size: 25px;	
+			
+			}
+			
+/*Equipes*/
+			#equipes h1 {
+			color: #A48A40;
+			text-decoration: none;
+			text-shadow: 0 0px 0 #222222;
+			text-align: center;
+			font-style: bold;
+			font-size: 25px;	
+			}	
+Wrapper 
 
 	.wrapper {
 		padding: 5em 0 3em 0;
