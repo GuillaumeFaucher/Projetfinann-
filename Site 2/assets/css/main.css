@@ -108,7 +108,7 @@ input, select, textarea {
 	h1, h2, h3, h4, h5, h6 {
 		font-weight: 600;
 		text-transform: uppercase;
-		color: #888;
+		color: white;
 	}
 
 	h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
@@ -123,12 +123,14 @@ input, select, textarea {
 		letter-spacing: 4px;
 		margin: 0 0 1.5em 0;
 		line-height: 1.75em;
+		text-align: center;
 	}
 
 	h3 {
 		font-size: 1em;
 		letter-spacing: 2px;
 		margin: 0 0 1.25em 0;
+		text-align: center;
 	}
 
 	a {
@@ -160,6 +162,7 @@ input, select, textarea {
 	strong, b {
 		font-weight: 600;
 		color: #666;
+		text-align: center;
 	}
 
 	em, i {
@@ -201,6 +204,11 @@ input, select, textarea {
 	br.clear {
 		clear: both;
 	}
+	
+	/*img {
+		margin-left: 360px;
+		width: 40%;
+	}*/
 
 /* Container */
 
@@ -1834,12 +1842,23 @@ input, select, textarea {
 			}
 
 /* Box */
-
+	#présentation {
+		position: relative;
+		/*overflow: hidden;*/
+		background: url(images/fondsite.jpg);
+		text-align: center;
+		padding: 6em 0;
+	}
+}
+	.presentation .box.presentation > img {
+		margin-left: 360px;
+		width: 40%;	
+	}
 	.no-sidebar .box.post > header {
 		text-align: center;
 	}
 
-	.box.excerpt .date {
+	/*.box.excerpt .date {
 		background: #878787;
 		color: #fff;
 		font-weight: 400;
@@ -1851,7 +1870,7 @@ input, select, textarea {
 		font-size: 0.85em;
 		letter-spacing: 2px;
 		padding: 0.25em 1em 0.25em 1em;
-		margin: 0 0 2.5em 0;
+		margin: 0 0 2.5em 0;*/
 	}
 
 /* Icons */
@@ -1877,6 +1896,7 @@ input, select, textarea {
 /* Page Wrapper */
 
 	#page-wrapper > section {
+		margin-top: 2;
 		margin-bottom: 0;
 	}
 
@@ -1885,7 +1905,7 @@ input, select, textarea {
 	#header {
 		position: relative;
 		position: relative;
-		background: url(images/miroireau2.jpg);
+		background: url(images/Banner2.png);
 		background-repeat: no-repeat;
 		background-size: 100%
 		text-align: center;
@@ -1913,7 +1933,7 @@ input, select, textarea {
 			font-size: 3em;
 			letter-spacing: 13px;
 			font-style: oblique;
-			margin-top: -45px;
+			margin-top: -120px;
 		}
 
 			#header h1 a {
@@ -1934,7 +1954,7 @@ input, select, textarea {
 
 	#nav {
 		position: absolute;
-		top: 3em;
+		top: 1em;
 		left: 0;
 		width: 100%;
 		cursor: default;
@@ -1954,7 +1974,7 @@ input, select, textarea {
 				text-decoration: none;
 				text-transform: uppercase;
 				font-weight: 400;
-				color: #777;
+				color: white;
 				outline: 0;
 				display: block;
 			}
@@ -2072,7 +2092,7 @@ input, select, textarea {
 	#features {
 		position: relative;
 		/*overflow: hidden;*/
-		background: url(images/fondbleu1.jpg);
+		background: url(images/fondsite.jpg);
 		text-align: center;
 		padding: 6em 0;
 	}
@@ -2098,7 +2118,7 @@ input, select, textarea {
 		box-shadow: inset 0px -8px 0px 0px #fff, inset 0px 8px 0px 0px #fff;
 		position: relative;
 		text-transform: uppercase;
-		background: url("../../images/banner.jpg");
+		/*background: url("../../images/banner.jpg");*/
 		background-size: cover;
 		padding: 10em 0;
 	}
@@ -2188,7 +2208,50 @@ input, select, textarea {
 			margin: 0;
 			padding: 0;
 		}
+/*Presentation*/
 
+	div#equipes2 div{
+			display: inline-block;
+			width: 50%
+		}
+
+
+			div#equipes2 div.leftbox{
+			vertical-align: top;
+			float: left;
+		}
+
+
+			div#equipes2 div.righbox{
+				vertical-align: top;
+				margin-right: 120px;
+				text-align: left;
+				float: left;
+
+		}
+
+			div#equipes2 img {
+				width: 280px;
+				height: 280px;
+	/*			margin-left: auto;
+				margin-right: auto;*/
+				vertical-align: top;
+			}
+
+			div#equipes2 h2 {
+			color: #A48A40;
+			text-decoration: none;
+			text-shadow: 0 0px 0 #222222;
+			text-align: left;
+			font-style: bold;
+			font-size: 25px;	
+			
+			}
+
+		#clefs h3 {
+			text-align: left;
+			color: red;
+		}
 /* Footer */
 
 	#footer {
@@ -2659,6 +2722,12 @@ input, select, textarea {
 					margin: 3em 0 0 0;
 					padding: 3em 0 0 0;
 				}
+
+		/*Presentation*/
+
+		#clef h3 {
+			text-align: left;
+		}
 
 		/* Footer */
 
