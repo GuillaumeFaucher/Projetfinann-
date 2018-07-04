@@ -1913,8 +1913,7 @@ input, select, textarea {
 
 	#header {
 		position: relative;
-		position: relative;
-		background: url(images/Banner2.png);
+		background: url(images/banner5.png);
 		background-repeat: no-repeat;
 		width: 100%;
 		background-size: 100%
@@ -2102,7 +2101,7 @@ input, select, textarea {
 	#features {
 		position: relative;
 		/*overflow: hidden;*/
-		background: url(images/fondsite.jpg);
+		background: url(images/fonsite.png);
 		/*text-align: center;*/
 		/*padding: 6em 0;*/
 	}
