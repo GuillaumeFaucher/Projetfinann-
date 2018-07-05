@@ -108,7 +108,7 @@ input, select, textarea {
 	h1, h2, h3, h4, h5, h6 {
 		font-weight: 600;
 		text-transform: uppercase;
-		color: white;
+		color: #98694C;
 	}
 
 	h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
@@ -1552,7 +1552,7 @@ input, select, textarea {
 		ul li {
 			padding-left: 0.5em;
 			margin: 0.75em 0 0.75em 0;
-			color: white;
+			color: black;
 		}
 
 			ul li:first-child {
@@ -1905,7 +1905,7 @@ input, select, textarea {
 /* Page Wrapper */
 
 	#page-wrapper > section {
-		margin-top: 2;
+		margin-top: 0;
 		margin-bottom: 0;
 	}
 
@@ -2100,8 +2100,9 @@ input, select, textarea {
 
 	#features {
 		position: relative;
+		background-color: white;
 		/*overflow: hidden;*/
-		background: url(images/fonsite.png);
+		/*background: url(images/fonsite.png);*/
 		/*text-align: center;*/
 		/*padding: 6em 0;*/
 	}
@@ -2761,4 +2762,16 @@ input, select, textarea {
 					border-left: 0;
 				}
 
+	}
+
+	/* Chartes*/
+	#Chartes h2 {
+		background-color: #C5CAC9;
+		/*background-image: url(images/fondbleu.jpg);*/
+		background-repeat: no-repeat;
+    	background-position: center top;
+	}
+
+	#Chartes img {
+		padding-left: 40%;
 	}
