@@ -213,7 +213,7 @@ input, select, textarea {
 /* Container */
 
 	.container {
-		margin: 0 auto;
+		margin: 5 auto;
 		max-width: 100%;
 		width: 70em;
 	}
@@ -320,7 +320,7 @@ input, select, textarea {
 		}
 
 		.row > .col-4 {
-			width: 33.3333333333%;
+			width: 33.33%;
 		}
 
 		.row > .off-4 {
@@ -1582,7 +1582,7 @@ input, select, textarea {
 
 		ul.links li {
 			display: inline;
-			border-left: solid 1px #d0d0d0;
+			/*	*/
 			padding-left: 1em;
 			margin: 0 0 0 1em;
 		}
@@ -2104,12 +2104,13 @@ input, select, textarea {
 		/*overflow: hidden;*/
 		/*background: url(images/fonsite.png);*/
 		/*text-align: center;*/
-		/*padding: 6em 0;*/
+		/*padding: 10em 0;*/
 	}
 
-		#features p {
-			text-align: center;
-		}
+		#feature h2 {
+			text-align: left;		}
+
+	
 
 		#features ul.actions {
 			margin-top: 1.25em;
@@ -2260,7 +2261,12 @@ input, select, textarea {
 
 		#clefs h3 {
 			text-align: left;
-			color: red;
+			color: #98694C;
+		}
+
+		#maps h3 {
+			color: #98694C;
+			text-align: left;
 		}
 /* Footer */
 
@@ -2296,7 +2302,7 @@ input, select, textarea {
 
 	#copyright {
 		border-top: solid 2px #e5e5e5;
-		text-align: center;
+		text-align: left;
 		margin-top: 6em;
 		padding-top: 4em;
 	}
@@ -2735,7 +2741,7 @@ input, select, textarea {
 
 		/*Presentation*/
 
-		#clef h3 {
+		#clef h2	 {
 			text-align: left;
 		}
 
@@ -2775,3 +2781,8 @@ input, select, textarea {
 	#Chartes img {
 		padding-left: 40%;
 	}
+
+	#pres h2 {
+		text-align: left;
+	}
+
