@@ -83,7 +83,7 @@ input, select, textarea {
 	}
 
 	body {
-		background: #f0f0f0;
+		background: white;
 	}
 
 		body.is-preload *, body.is-preload *:before, body.is-preload *:after {
@@ -121,7 +121,7 @@ input, select, textarea {
 		font-size: 1.65em;
 		font-weight: 400;
 		letter-spacing: 4px;
-		margin: 0 0 1.5em 0;
+		margin: 1.5em ;
 		line-height: 1.75em;
 		text-align: center;
 	}
@@ -321,6 +321,7 @@ input, select, textarea {
 
 		.row > .col-4 {
 			width: 33.33%;
+			margin: 5em;
 		}
 
 		.row > .off-4 {
@@ -2101,6 +2102,7 @@ input, select, textarea {
 	#features {
 		position: relative;
 		background-color: white;
+		margin: 5em;
 		/*overflow: hidden;*/
 		/*background: url(images/fonsite.png);*/
 		/*text-align: center;*/
@@ -2108,7 +2110,8 @@ input, select, textarea {
 	}
 
 		#feature h2 {
-			text-align: left;		}
+			text-align: left;
+			width: 100%;		}
 
 	
 
@@ -2784,5 +2787,6 @@ input, select, textarea {
 
 	#pres h2 {
 		text-align: left;
+		width: 100%;
 	}
 
