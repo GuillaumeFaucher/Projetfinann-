@@ -81,9 +81,19 @@ a:focus {
 
 .navbar-brand h1{
 	color: #fff;
+  font-size: 50px;
+  line-height: 40px;
+  margin-left: 100px;
+  font-family: American Typewriter, serif;
+}
+  .navbar-brand h4{
+    color: #fff;
   font-size: 20px;
   line-height: 40px;
-}
+  margin-left: 100px;
+  font-family: American Typewriter, serif;
+  }
+
 
 .navbar-brand:focus {
     outline: 0;
@@ -100,7 +110,7 @@ a:focus {
 .navbar-custom ul.nav li a {
 	font-size: 12px;
 	letter-spacing: 1px;
-    color: #444;
+    color: white;
 	text-transform: uppercase;
 	font-weight: 700;
 }
@@ -310,22 +320,25 @@ hr {
 .intro {
 	width:100%;
 	position:relative;
-	background: url(../img/ldf.jpg) no-repeat top center;
+	background: url(../img/MiroirEau.jpg) no-repeat top center;
     background-size: cover;
     height: auto;
 }
 
 #intro.intro {
-	padding:20% 0 0 0;
+/*	padding:20% 0 0 0;*/
+
 }
 
 .intro .slogan {
-	text-align: center;
+    margin-bottom: 260px;
+/*	text-align: center;*/
 
 }
 
 .intro .page-scroll {
 	text-align: center;
+    margin-top: 460px;
 }
 
 .brand-heading {
@@ -350,11 +363,20 @@ hr {
 	border-color: #000;
 	border-style: none;
 	text-shadow: -1px 0 1px #000;
+    margin-left:200px;
+
 }
 
 .intro .slogan h4 {
 	color: #fff;
 	text-shadow: -1px 1px 1px #000;
+    margin-left: 200px;
+        
+}
+
+.intro .slogan img {
+    margin-left: 150px;     
+/*    margin-top: 580px;*/
 }
 
 @media (max-width: 768px) {
