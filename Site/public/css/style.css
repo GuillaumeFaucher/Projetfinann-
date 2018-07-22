@@ -14,8 +14,8 @@ body {
     height: 100%;
     font-family: 'Lato',sans-serif;
 	font-weight: 300;
-    color: #666;
-    background-color: #fff;
+    color: white;
+    background-color: black;
 }
 
 html {
@@ -100,7 +100,7 @@ a:focus {
 }
 
 .nav.navbar-nav {
-    background-color: rgba(255,255,255,.4);
+    background-color: rgba(10, 10, 10, 0.4);
 }
 
 .navbar-custom.top-nav-collapse .nav.navbar-nav {
@@ -297,7 +297,7 @@ hr {
 }
 
 .bg-gray {
-	background: #f8f8f8;
+	background: #444343;
 }
 
 
@@ -320,7 +320,7 @@ hr {
 .intro {
 	width:100%;
 	position:relative;
-	background: url(../img/MiroirEau.jpg) no-repeat top center;
+	background: url(../img/Bourse.jpg) no-repeat top center;
     background-size: cover;
     height: auto;
 }
@@ -338,7 +338,7 @@ hr {
 
 .intro .page-scroll {
 	text-align: center;
-    margin-top: 460px;
+    margin-top: 260px;
 }
 
 .brand-heading {
@@ -363,20 +363,22 @@ hr {
 	border-color: #000;
 	border-style: none;
 	text-shadow: -1px 0 1px #000;
-    margin-left:300px;
+    margin-left:400px;
+    margin-bottom: 15px;
 
 }
 
 .intro .slogan h4 {
 	color: white;
 	text-shadow: -1px 1px 1px #000;
-    margin-left: 300px;
+    margin-left: 400px;
         
 }
 
 .intro .slogan img {
     margin-left: 100px;     
-     margin-top: -160px;
+     margin-top: -120px;
+     width: 12%;
 }
 
 @media (max-width: 768px) {
@@ -397,7 +399,7 @@ hr {
 ============================ */
 
 .boxed-grey {
-	background: #f9f9f9;
+	background: black;
 	padding: 20px;
 }
 
@@ -468,6 +470,13 @@ hr {
 
 .service-icon {
 	margin-bottom: 20px;
+}
+.service-icon img {
+  width: 90%
+}
+.service-desc h5 {
+  font-size: 25px;
+}
 }
 
 
@@ -597,7 +606,7 @@ footer {
 }
 
 footer p {
-	color: #f8f8f8;
+	color: white;
 }
 
 .credits, .credits a {
@@ -873,7 +882,7 @@ Parallax
  }
 
  #about p {
-    text-align: left;
+    text-align: justify;
     font-size: 20px;
     margin-left: 17px;
  }
